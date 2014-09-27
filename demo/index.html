@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>slipScroll.js</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <div class="container2">
+    <a href="#" class="fixed4">Logo</a>
+  </div>
+
+  <div class="container2">
+    <a href="#" class="mover">Logo</a>
+  </div>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="../slipScroll.js"></script>
+  <script>
+    $().slipScroll({
+      fixed: '.fixed4',
+      container: '.container2',
+      moveable: '.mover'
+    });
+  </script>
+</body>
+</html>
