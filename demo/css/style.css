@@ -7,22 +7,27 @@ html {
   height: 2000px;
 }
 
-.fixed4 {
+.fixed, .fixed2 {
   color: red;
   background: green;
   padding: 1em;
 }
 
-.mover {
+.moveable, .moveable2 {
   color: blue;
   background: yellow;
   padding: 1em;
 }
 
-.container2 {
+.container, .container2 {
   height: 400px;
 }
 
-.container2:nth-child(2) {
+.container:nth-child(2), .container2:nth-child(2) {
   background: #444;
+}
+
+section {
+  float: left;
+  width: 50%;
 }
