@@ -8,23 +8,55 @@
 <body>
 
 
-  <section>
-    <div class="container">
+    <div class="container bg-black">
       <a href="#" class="fixed">Logo</a>
-    </div>
-    <div class="container">
-      <a href="#" class="moveable">Logo</a>
-    </div>
-  </section>
+      <nav class="fixed2">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
 
-  <section>
-    <div class="container2">
-      <a href="#" class="fixed2">Logo</a>
+      <section>
+        <h1>slipScroll.js</h1>
+      </section>
+
     </div>
-    <div class="container2">
-      <a href="#" class="moveable2">Logo</a>
+
+    <div class="container bg-red">
+      <a href="#" class="moveable">Logo</a>
+      <nav class="moveable2">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
     </div>
-  </section>
+
+    <div class="container bg-orange">
+      <a href="#" class="moveable">Logo</a>
+      <nav class="moveable2">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </div>
+
+    <div class="container bg-yellow">
+      <a href="#" class="moveable">Logo</a>
+      <nav class="moveable2">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </div>
+
+    <div class="container bg-blue">
+      <a href="#" class="moveable">Logo</a>
+      <nav class="moveable2">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </div>
 
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -33,8 +65,7 @@
     $().slipScroll();
     $().slipScroll({
       fixed: '.fixed2',
-      moveable: '.moveable2',
-      container: '.container2'
+      moveable: '.moveable2'
     });
   </script>
 </body>
