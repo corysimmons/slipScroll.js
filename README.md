@@ -6,7 +6,7 @@ Slip scroll jQuery plugin.
 
 ### Installation
 - Import jQuery
-- Import slipScroll.js
+- Import slipScroll.js (it's also installable via Bower `bower install slipScroll.js`)
 
 ### Usage
 - Create a few `<div>`s as containers
