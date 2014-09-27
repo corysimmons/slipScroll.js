@@ -1,0 +1,25 @@
+{
+  "name": "slipScroll.js",
+  "main": "slipScroll.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/corysimmons/slipScroll.js",
+  "authors": [
+    "Cory Simmons <csimmonswork@gmail.com>"
+  ],
+  "description": "Slip scroll jQuery plugin",
+  "keywords": [
+    "slip",
+    "scroll",
+    "jquery",
+    "plugin",
+    "fixed"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
